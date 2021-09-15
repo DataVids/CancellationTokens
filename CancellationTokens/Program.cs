@@ -14,6 +14,7 @@ namespace CancellationTokens
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //This comment needs to be committed to a non-main branch.
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
