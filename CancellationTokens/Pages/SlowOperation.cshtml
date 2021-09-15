@@ -1,0 +1,7 @@
+﻿@page
+@model CancellationTokens.Pages.SlowOperationModel
+@{
+}
+<div>
+    @await Model.GetSlowData(HttpContext.RequestAborted)
+</div>
